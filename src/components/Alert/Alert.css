@@ -1,0 +1,21 @@
+.alert {
+    @apply py-1 px-2 rounded-md border text-white;
+}
+.alert-primary {
+    @apply alert bg-blue-500;
+}
+.alert-success{
+    @apply alert bg-success
+}
+.alert-info {
+    @apply alert bg-green-500;
+}
+.alert-secondary {
+    @apply alert bg-yellow-500;
+}
+.alert-warning {
+    @apply alert bg-orange-500;
+}
+.alert-danger {
+    @apply alert bg-red-500;
+}

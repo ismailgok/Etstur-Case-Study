@@ -1,0 +1,5 @@
+.btn-point{
+    @apply flex px-3 py-2 rounded-md;
+    color:#346CFF;
+    border:2px solid #346CFF;
+}

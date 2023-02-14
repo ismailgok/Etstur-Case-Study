@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.br{
+    border:1px solid red;
+}
+
+
+select{
+    padding: 5px;
+}
+select Option{
+    border:1px solid red;
+    padding:20px !important;
+}
+.delete-modal-cancel-btn{
+    @apply  rounded-full absolute flex z-50  top-0 right-0 ;
+    background-color: #EBF1FA;
+    
+    
+    
+}
+.delete-modal-cancel{
+    @apply text-3xl font-extralight;
+    color: #61656E;
+    
+    
+}
